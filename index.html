@@ -1,86 +1,55 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>İYFE — Yapay Zeka Destekli Günlük İlham</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>İYFE — Günlük İlham</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background: #fdfdfd;
-      font-family: 'Inter', sans-serif;
-      color: #222;
-    }
-    header {
-      padding: 16px 24px;
-      background: #ffffff;
-      border-bottom: 1px solid #eee;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    header .logo {
-      font-size: 20px;
-      font-weight: 600;
-      color: #00796b;
-      text-decoration: none;
-    }
-    main {
-      max-width: 720px;
-      margin: 40px auto;
-      padding: 0 24px;
-    }
-    .date {
-      font-size: 14px;
-      color: #999;
-      margin-bottom: 10px;
-    }
-    .headline {
-      font-size: 28px;
-      font-weight: 600;
-      margin-bottom: 20px;
-      color: #111;
-    }
-    .summary {
-      font-size: 17px;
-      line-height: 1.6;
-      color: #333;
-      margin-bottom: 32px;
-    }
-    .task-box {
-      background: #e0f7fa;
-      padding: 16px;
-      border-left: 4px solid #00796b;
-      font-size: 16px;
-      margin-top: 20px;
-    }
-    footer {
-      text-align: center;
-      font-size: 13px;
-      color: #aaa;
-      padding: 40px 0 20px;
-    }
+    body { font-family: 'Inter', sans-serif; margin: 0; background: #fdfdfd; color: #222; }
+    header { background: #fff; padding: 20px 32px; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; align-items: center; }
+    .logo { font-weight: 700; font-size: 20px; color: #00796b; text-decoration: none; }
+    .nav a { margin-left: 20px; color: #777; text-decoration: none; font-size: 14px; }
+    main { max-width: 800px; margin: 40px auto; padding: 0 24px; }
+    .card { background: #fff; padding: 24px; margin-bottom: 24px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+    .date { font-size: 13px; color: #999; margin-bottom: 6px; }
+    .title { font-size: 20px; font-weight: 600; color: #111; margin-bottom: 12px; }
+    .summary { font-size: 16px; line-height: 1.6; color: #333; }
+    footer { text-align: center; font-size: 12px; color: #aaa; padding: 40px 0 20px; }
   </style>
 </head>
 <body>
   <header>
-    <a class="logo" href="#">İYFE</a>
-    <nav>
-      <a href="#" style="margin-right: 16px; text-decoration:none; color:#666;">Hakkında</a>
-      <a href="#" style="text-decoration:none; color:#666;">İletişim</a>
+    <a href="#" class="logo">İYFE</a>
+    <nav class="nav">
+      <a href="#">Hakkında</a>
+      <a href="#">İletişim</a>
     </nav>
   </header>
 
   <main>
-    <div class="date">4 Mayıs 2025</div>
-    <div class="headline">Amazon, AI Destekli Müşteri Hizmetlerine Geçti</div>
-    <div class="summary">
-      Amazon artık müşteri desteklerinin %75'ini yapay zeka ile yürütüyor. Yeni sistem, sorunları analiz edip çözümleri otomatik öneriyor. Çağrı merkezlerinin yükü %30 azaldı. Bu da milyonlarca dolarlık tasarruf ve daha hızlı müşteri memnuniyeti sağladı.
+    <div class="card">
+      <div class="date">4 Mayıs 2025 — Teknoloji</div>
+      <div class="title">Yapay Zeka Müşteri Hizmetlerini Yeniden Şekillendiriyor</div>
+      <div class="summary">
+        Amazon, müşteri desteklerinin %75’ini artık yapay zeka ile yürütüyor. Yeni sistem sorunları daha hızlı analiz ediyor ve çağrı merkezi yükünü %30 azaltıyor. Bu teknolojiyle milyonlarca dolar tasarruf sağlanıyor.
+      </div>
     </div>
-    <div class="task-box">
-      🎯 <strong>Bugünkü Görev:</strong> Kendi işinde sık tekrar eden bir müşteri sorusunu düşün. Bunu yapay zeka ile nasıl otomatikleştirebilirsin?
+
+    <div class="card">
+      <div class="date">4 Mayıs 2025 — Girişimcilik</div>
+      <div class="title">Erken Aşama Startuplar için En Kritik 2 Ay</div>
+      <div class="summary">
+        Yeni kurulan girişimlerin ilk iki ayı, ürün-pazar uyumu ve geri bildirim açısından en belirleyici dönem olarak görülüyor. Başarılı girişimler, bu süreçte en hızlı deneme yapanlar oluyor.
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="date">4 Mayıs 2025 — Kişisel Gelişim</div>
+      <div class="title">Her Sabah Yalnızca 1 Fikirle Başlamak</div>
+      <div class="summary">
+        Stanford'lı araştırmacılara göre, sabahları yalnızca tek bir fikir veya hedefe odaklanmak zihinsel yorgunluğu azaltıyor ve üretkenliği artırıyor. Dağınık planlardan uzak durmak öneriliyor.
+      </div>
     </div>
   </main>
 
