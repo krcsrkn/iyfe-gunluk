@@ -3,31 +3,89 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Günün Özeti - İYFE</title>
+  <title>İYFE — Yapay Zeka Destekli Günlük İlham</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    body { font-family: sans-serif; background: #f4f4f4; margin: 0; padding: 0; }
-    .container { max-width: 600px; margin: 40px auto; background: #fff; padding: 25px;
-      border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
-    h1 { font-size: 22px; color: #00796b; margin-bottom: 10px; }
-    .meta { font-size: 14px; color: #999; margin-bottom: 20px; }
-    .content { font-size: 16px; color: #333; line-height: 1.6; }
-    .task { background: #e0f7fa; padding: 12px; border-left: 4px solid #00796b;
-      margin-top: 25px; font-size: 15px; }
-    footer { font-size: 12px; color: #aaa; margin-top: 40px; text-align: center; }
+    body {
+      margin: 0;
+      padding: 0;
+      background: #fdfdfd;
+      font-family: 'Inter', sans-serif;
+      color: #222;
+    }
+    header {
+      padding: 16px 24px;
+      background: #ffffff;
+      border-bottom: 1px solid #eee;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header .logo {
+      font-size: 20px;
+      font-weight: 600;
+      color: #00796b;
+      text-decoration: none;
+    }
+    main {
+      max-width: 720px;
+      margin: 40px auto;
+      padding: 0 24px;
+    }
+    .date {
+      font-size: 14px;
+      color: #999;
+      margin-bottom: 10px;
+    }
+    .headline {
+      font-size: 28px;
+      font-weight: 600;
+      margin-bottom: 20px;
+      color: #111;
+    }
+    .summary {
+      font-size: 17px;
+      line-height: 1.6;
+      color: #333;
+      margin-bottom: 32px;
+    }
+    .task-box {
+      background: #e0f7fa;
+      padding: 16px;
+      border-left: 4px solid #00796b;
+      font-size: 16px;
+      margin-top: 20px;
+    }
+    footer {
+      text-align: center;
+      font-size: 13px;
+      color: #aaa;
+      padding: 40px 0 20px;
+    }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Günün Özeti: Amazon, Yapay Zeka Destekli Müşteri Hizmetine Geçiyor</h1>
-    <p class="meta">Kaynak: <a href="https://www.cnbc.com/2024/04/30/amazon-rolls-out-ai-customer-support.html" target="_blank">CNBC</a></p>
-    <div class="content">
-      <p>Amazon, müşteri hizmetlerinin %75'ini artık yapay zeka ile yürütüyor. Yeni sistem, kullanıcıların sorunlarını daha hızlı ve doğru analiz ediyor. Böylece çağrı merkezlerindeki iş yükü %30 azaldı.</p>
-      <p>Şirket, bu teknoloji sayesinde yılda milyonlarca dolar tasarruf sağlarken, müşteri memnuniyetini de artırmayı hedefliyor.</p>
+  <header>
+    <a class="logo" href="#">İYFE</a>
+    <nav>
+      <a href="#" style="margin-right: 16px; text-decoration:none; color:#666;">Hakkında</a>
+      <a href="#" style="text-decoration:none; color:#666;">İletişim</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="date">4 Mayıs 2025</div>
+    <div class="headline">Amazon, AI Destekli Müşteri Hizmetlerine Geçti</div>
+    <div class="summary">
+      Amazon artık müşteri desteklerinin %75'ini yapay zeka ile yürütüyor. Yeni sistem, sorunları analiz edip çözümleri otomatik öneriyor. Çağrı merkezlerinin yükü %30 azaldı. Bu da milyonlarca dolarlık tasarruf ve daha hızlı müşteri memnuniyeti sağladı.
     </div>
-    <div class="task">
-      <strong>Günlük Görev:</strong> Bugün kendi işinle ilgili sık gelen soruları düşün. Bunlardan birini AI kullanarak otomatikleştirebilir misin?
+    <div class="task-box">
+      🎯 <strong>Bugünkü Görev:</strong> Kendi işinde sık tekrar eden bir müşteri sorusunu düşün. Bunu yapay zeka ile nasıl otomatikleştirebilirsin?
     </div>
-    <footer>© 2025 iyfe.com | Yapay zekayla her gün geliş.</footer>
-  </div>
+  </main>
+
+  <footer>
+    © 2025 iyfe.com — Yapay zekayla her gün geliş.
+  </footer>
 </body>
 </html>
